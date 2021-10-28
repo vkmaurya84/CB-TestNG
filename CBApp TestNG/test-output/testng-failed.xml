@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CBApp.search">
+        <methods>
+          <include name="searchContact"/>
+          <include name="searchh"/>
+          <include name="testSetup"/>
+          <include name="block"/>
+          <include name="openBrowser"/>
+          <include name="Tags"/>
+          <include name="favourite"/>
+        </methods>
+      </class> <!-- CBApp.search -->
+      <class name="CBApp.Login_page">
+        <methods>
+          <include name="contactPreview"/>
+          <include name="contactBlock"/>
+          <include name="mailLogin"/>
+          <include name="tagsUpdate"/>
+          <include name="testSetup"/>
+          <include name="password"/>
+          <include name="contactFavourite"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CBApp.Login_page -->
+      <class name="CBApp.MyCardPage">
+        <methods>
+          <include name="Card"/>
+          <include name="testSetup"/>
+          <include name="shareCard"/>
+          <include name="newCardTheme"/>
+          <include name="newCard"/>
+          <include name="view"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CBApp.MyCardPage -->
+      <class name="CBApp.profession">
+        <methods>
+          <include name="testSetup"/>
+          <include name="tags"/>
+          <include name="favourite"/>
+          <include name="openBrowser"/>
+          <include name="block"/>
+          <include name="professions"/>
+          <include name="professionList"/>
+        </methods>
+      </class> <!-- CBApp.profession -->
+      <class name="CBApp.Company">
+        <methods>
+          <include name="companies"/>
+          <include name="tags"/>
+          <include name="favourite"/>
+          <include name="testSetup"/>
+          <include name="companyList"/>
+          <include name="openBrowser"/>
+          <include name="block"/>
+        </methods>
+      </class> <!-- CBApp.Company -->
+      <class name="CBApp.Industry">
+        <methods>
+          <include name="industriesList"/>
+          <include name="industries"/>
+          <include name="testSetup"/>
+          <include name="block"/>
+          <include name="openBrowser"/>
+          <include name="tags"/>
+          <include name="favourite"/>
+        </methods>
+      </class> <!-- CBApp.Industry -->
+      <class name="CBApp.Search2">
+        <methods>
+          <include name="searchGlobal"/>
+          <include name="search"/>
+          <include name="testSetup"/>
+          <include name="openBrowser"/>
+          <include name="globalCard"/>
+        </methods>
+      </class> <!-- CBApp.Search2 -->
+      <class name="CBApp.FavouritePage">
+        <methods>
+          <include name="block"/>
+          <include name="tags"/>
+          <include name="favourite"/>
+          <include name="testSetup"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- CBApp.FavouritePage -->
+      <class name="CBApp.tag">
+        <methods>
+          <include name="tagDelete"/>
+          <include name="tagList"/>
+          <include name="testSetup"/>
+          <include name="favourite"/>
+          <include name="Tags"/>
+          <include name="tags"/>
+          <include name="openBrowser"/>
+          <include name="tagUpdate"/>
+          <include name="block"/>
+        </methods>
+      </class> <!-- CBApp.tag -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
