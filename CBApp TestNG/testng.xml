@@ -3,9 +3,9 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="CBApp.Base" />
+			 <class name="CBApp.Base" />
 			
-			<class name="CBApp.Login_page" />
+			<!--<class name="CBApp.Login_page" />-->
 			<!-- <class name="CBApp.ForgetPassword"> <methods> <exclude name="forgetPass"/> 
 				<exclude name="sendCard"/> </methods> </class> -->
 
@@ -15,7 +15,7 @@
 				</methods>
 			</class>
 			
-			<class name="CBApp.FavouritePage"></class>
+		<!--	<class name="CBApp.FavouritePage"></class>
 			<class name="CBApp.Company"></class>
 			<class name="CBApp.Industry"></class>
 			<class name="CBApp.profession">
@@ -28,8 +28,8 @@
 			<class name="CBApp.search"></class>
 			<class name="CBApp.Search2"></class>
 			<class name="CBApp.Notification"></class>
-			<class name="CBApp.Setting"></class>
-			
+			<class name="CBApp.Setting"></class> 
+			<class name="CBApp.DPATest"></class> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
